@@ -45,3 +45,29 @@
     transform: rotate(360deg);
   }
 }
+.div1{
+  /* margin: 20px 0; */
+  height: 65vh;
+  background-image:url('../public/abdo1.jpg') ;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: left;
+}
+.about-text{
+  padding-top: 40px;
+  margin-left: 5rem;
+  width: 50vw;
+}
+
+.div2{
+  /* margin: 20px 0; */
+  height: 90vh;
+  background-image:url('../public/abdo2.jpg') ;
+  /* width: 100%; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* text-align: left; */
+}

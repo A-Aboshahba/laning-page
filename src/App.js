@@ -8,6 +8,9 @@ import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import About from "./components/About";
+import Stats from "./components/Stats";
+import Footer from "./components/Footer";
 const data = [
   {
     start: "I feel",
@@ -30,6 +33,10 @@ function App() {
     <div className="App">
       <OffcanvasExample />
       <DarkVariantExample data={data}></DarkVariantExample>
+      <About />
+      <div className="div2"></div>
+      <Stats />
+      <Footer />
     </div>
   );
 }
@@ -63,8 +70,7 @@ export const CarouselInnerItem = ({ content }) => {
     <div className="d-block w-100 extra-bold" style={styles}>
       <div
         style={{ paddingTop: "100px", paddingLeft: "20px", fontSize: "2.4vw" }}
-        className=" w-50  text-start font-weight-bold"
-      >
+        className=" w-50  text-start font-weight-bold">
         <span style={{ color: "blue" }}>{content.start}</span> {content.desc}
       </div>
     </div>
@@ -78,16 +84,15 @@ function OffcanvasExample() {
         <Container fluid>
           <Navbar.Brand href="#" className="mt-2">
             <img
+              alt="fghfg"
               src="./sssss3.png"
-              style={{ height: "50px", width: "150px" }}
-            ></img>
+              style={{ height: "50px", width: "150px" }}></img>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-md`}
             aria-labelledby={`offcanvasNavbarLabel-expand-md`}
-            placement="end"
-          >
+            placement="end">
             <Offcanvas.Header closeButton>
               <Offcanvas.Title id={`offcanvasNavbarLabel-expand-md`}>
                 Offcanvas
