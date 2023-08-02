@@ -2,41 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.active-link:hover {
-  color: rgb(33, 98, 187);
-}
-.extra-bold {
-  font-weight: 700;
-}
-.pt-heading {
-  padding-top: "200px";
-}
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -45,26 +10,48 @@
     transform: rotate(360deg);
   }
 }
-.div1{
+
+.fs-15 {
+  font-size: "15px";
+}
+
+.fs-16 {
+  font-size: "16px";
+}
+
+.fs-20 {
+  font-size: "20px";
+}
+
+.extra-bold {
+  font-weight: 700;
+}
+.spin {
+  transition: transform 0.5s ease;
+}
+.spin:hover {
+  transform: rotate(360deg);
+}
+.div1 {
   /* margin: 20px 0; */
-  height: 65vh;
-  background-image:url('../public/abdo1.jpg') ;
+  /* height: 65vh; */
+  background-image: url("../public/abdo1.jpg");
   width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: left;
 }
-.about-text{
-  padding-top: 40px;
+/* .about-text {
+  /* padding-top: 40px;
   margin-left: 5rem;
-  width: 50vw;
-}
+  width: 50vw; */
+/* } */
 
-.div2{
+.div2 {
   /* margin: 20px 0; */
   height: 90vh;
-  background-image:url('../public/abdo2.jpg') ;
+  background-image: url("../public/abdo2.jpg");
   /* width: 100%; */
   background-size: cover;
   background-position: center;
